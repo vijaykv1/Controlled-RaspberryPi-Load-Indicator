@@ -1,0 +1,16 @@
+--------------------------------------------------------------------------------
+This is a module that is designed to perform the following tasks:
+
+-- Read the /proc/stat continuously on a regular basis.
+
+-- Calculate the percentage from the below sets of values that we have populated:
+    * User time            * IO-wait time
+    * Nice time            * IRQ time
+    * System time          * Soft-IRQ time
+    * Idle time            * Steal time
+    * Guest time           * Guest nice time
+
+-- Display the received percentage in terms of a Gertboard based LED sets.
+-- Facilitates the user to change the /proc/stat read interval via Gertboard
+   switches.
+--------------------------------------------------------------------------------
